@@ -49,13 +49,20 @@
 .page-header > .container {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
+}
+
+.container > .logo-container {
+  align-items: start;
+}
+.list-container {
+  margin-inline: 15px;
 }
 
 .link-item {
   display: inline-block;
-  margin-left: 220px;
-  margin-right: 220px;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 .first-layer {
@@ -117,4 +124,9 @@
   margin-inline: 17%;
   margin-top: 20px;
   margin-bottom: 20px;
+}
+
+.container > .link-item {
+  align-items: baseline;
+  margin-inline: 20px;
 }
