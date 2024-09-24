@@ -41,6 +41,7 @@
 }
 
 .page-header {
+  width: 100.5%;
   background-color: #255ee9;
   height: 58px;
   margin-bottom: -2%;
@@ -84,7 +85,7 @@
 .splitted {
   height: 400px;
   margin-inline: 17%;
-  margin-top: 20px;
+  margin-top: 244px;
   margin-bottom: 20px;
 }
 
@@ -123,7 +124,7 @@
 }
 
 .big-layer {
-  height: 700px;
+  height: 1500px;
   margin-inline: 17%;
   margin-top: 20px;
   margin-bottom: 20px;
@@ -150,4 +151,60 @@
 .jumbo-img {
   margin-left: -50%;
   height: 568px;
+}
+
+/* .wave {
+  width: 2000px;
+  height: 93px;
+  margin-left: -361px;
+} */
+
+.item2-img {
+  height: 380px;
+  margin-left: 215px;
+}
+
+.item3-img {
+  height: 380px;
+  margin-left: 90px;
+}
+
+.item4-big-img {
+  margin-top: 200px;
+  height: 600px;
+  margin-inline: 20px;
+}
+
+.bottom-layer {
+  height: 500px;
+  margin-inline: 17%;
+  margin-top: 244px;
+  margin-bottom: 20px;
+}
+
+.bottom-layer > .container {
+  display: flex;
+  align-items: center;
+}
+
+.col-big-bottom {
+  width: 30%;
+  height: 401px;
+  margin-left: -2%;
+  margin-top: -1%;
+}
+
+.col-small-bottom {
+  width: 17.5%;
+  height: 401px;
+  margin-right: -2%;
+  margin-top: -1%;
+}
+
+.end-page {
+  width: 61%;
+  margin-right: 70px;
+  margin-left: 250px;
+  margin-top: -5%;
+  height: 70px;
 }
